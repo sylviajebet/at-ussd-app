@@ -3,13 +3,15 @@ let menu = new UssdMenu();
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
+require("dotenv").config();
+
 const PORT = process.env.PORT;
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 
  // Authentication
 const credentials = {
-    apiKey: process.env.API_KEY, // API Key here, sandbox or live
+    apiKey: process.env.API_KEY, // API Key here 
     username: process.env.USERNAME // Username: 'sandbox' for the test environment, App username for live
 };
 
