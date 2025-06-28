@@ -49,7 +49,9 @@ Built for rapid prototyping and as a reference for developers looking to blend g
 
 3. **Set up environment variables**
 
-    Create a `.env` file in the root directory and add your credentials:
+    Create a `.env` file in the root directory and add your credentials
+    
+    (A `.env.example` file is provided in this repository to act as an example):
     ```env
     AT_API_KEY=your_africastalking_api_key
     AT_USERNAME=your_africastalking_username
@@ -71,12 +73,17 @@ Built for rapid prototyping and as a reference for developers looking to blend g
 ## 📁 Project Structure
 
 at-ussd-app/
-│
+
 ├── node_modules/
+
 ├── .env.example # Example environment file
+
 ├── index.js # Main js file with all functions 
+
 ├── package.json
+
 ├── package-lock.json
+
 └── README.md
 
 ---
