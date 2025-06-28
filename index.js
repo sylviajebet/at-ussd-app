@@ -13,8 +13,8 @@ app.use(bodyParser.urlencoded({extended: false}))
 
  // AT Authentication
  const credentials = {
-    apiKey: process.env.API_KEY, // API Key here 
-    username: process.env.USERNAME // Username: 'sandbox' for the test environment, App username for live
+    apiKey: process.env.AT_API_KEY, // API Key here 
+    username: process.env.AT_USERNAME // Username: 'sandbox' for the test environment, App username for live
 };
 
 //Send SMS function
@@ -37,7 +37,7 @@ const sendSMS = (to, msg) => {
 }
 
 //GeminiPlugIn
-const Your_API_Key = process.env.GEMINI_API;
+const Your_API_Key = process.env.GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(Your_API_Key)
 
 async function runAI(patient_num, sympt) {
