@@ -126,10 +126,6 @@ menu.state('sympt', {
         menu.end(`Very sorry that you\'re unwell! Please check your SMS app for a text on possible illnesses, as you go visit a medical professional too.
         \nGet well soon!`);
     }
-    // next: {
-        
-    //     '*\\d+': 'lessons'
-    // }
 })
 
 // Registering USSD handler with Express
