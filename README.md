@@ -56,7 +56,7 @@ Built for rapid prototyping and as a reference for developers looking to blend g
     AT_API_KEY=your_africastalking_api_key
     AT_USERNAME=your_africastalking_username
     GEMINI_API_KEY=your_gemini_api_key
-    PORT=3009 #Any prot number that the code will run in
+    PORT=3009 #Any port number that the code will run in
     ```
 
 4. **Run the app**
@@ -99,8 +99,8 @@ at-ussd-app/
 
 ## 📦 Deployment
 
-- Deploy on platforms like Heroku, Render, Railway, or any VPS/cloud provider
-- Expose the app to the internet using [ngrok](https://ngrok.com/) for local testing with Africa’s Talking
+- Deploy on platforms like Heroku, Render, Railway, Vercel, or any VPS/cloud provider
+- Expose the app to the internet using [ngrok](https://ngrok.com/) or similar apps for local testing with Africa’s Talking
 
 ---
 
